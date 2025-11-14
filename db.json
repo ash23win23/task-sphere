@@ -1,1 +1,15 @@
-{ "tasks": [], "projects": [], "users": [] }
+{
+  "users": [
+    { "id": 1, "name": "Ashwin", "email": "ashwin@mail.com", "password": "123456" }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Design Homepage",
+      "description": "Do UI/UX updates",
+      "status": "Pending",
+      "dueDate": "2025-11-20",
+      "assignedTo": 1
+    }
+  ]
+}
