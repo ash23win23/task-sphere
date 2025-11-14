@@ -1,7 +1,10 @@
 {
   "users": [
-    { "id": 1, "name": "Ashwin", "email": "ashwin@mail.com", "password": "123456" }
+    { "id": 1, "name": "Ashwin", "email": "ashwin@mail.com", "password": "123456" },
+    { "id": 2, "name": "Rajesh", "email": "rajesh@mail.com", "password": "123456" },
+    { "id": 3, "name": "Priya", "email": "priya@mail.com", "password": "123456" }
   ],
+
   "tasks": [
     {
       "id": 1,
@@ -9,6 +12,30 @@
       "description": "Do UI/UX updates",
       "status": "Pending",
       "dueDate": "2025-11-20",
+      "assignedTo": 1
+    },
+    {
+      "id": 2,
+      "title": "API Integration",
+      "description": "Connect frontend with backend API",
+      "status": "In Progress",
+      "dueDate": "2025-11-25",
+      "assignedTo": 2
+    },
+    {
+      "id": 3,
+      "title": "Write Documentation",
+      "description": "Create detailed project documentation",
+      "status": "Completed",
+      "dueDate": "2025-11-18",
+      "assignedTo": 3
+    },
+    {
+      "id": 4,
+      "title": "Fix Bugs",
+      "description": "Resolve UI bugs in dashboard",
+      "status": "Pending",
+      "dueDate": "2025-11-28",
       "assignedTo": 1
     }
   ]
