@@ -31,7 +31,7 @@ export function Tasks() {
     <div className="p-6 space-y-4">
       <h2 className="text-2xl font-bold">Tasks</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {sampleTasks.map((task) => (
+        {tasks.map((task) => (
           <TaskCard key={task.id} task={task} />
         ))}
       </div>
