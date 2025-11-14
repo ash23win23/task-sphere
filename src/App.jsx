@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import Header from './components/Header'
+import { Footer } from './components/Footer'
+import { TaskCard } from './components/TaskCard'
 import './App.css'
 
 function App() {
@@ -6,9 +9,9 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        TaskSphere
-      </h1>
+      <Header />
+      <TaskCard></TaskCard>
+      <Footer />
     </>
   )
 }
